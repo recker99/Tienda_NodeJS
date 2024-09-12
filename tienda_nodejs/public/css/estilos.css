@@ -1,0 +1,88 @@
+html { 
+  background-color: #fff; 
+} 
+    
+body {
+  min-height: 100vh;
+  max-width: 1000px;
+  background-color: rgb(255, 255, 255); 
+  margin: 0 auto;
+}
+   
+header {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  margin: 0 auto; 
+  max-width: 1000px; 
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center; 
+}
+
+.contenedor {
+  width: 100%; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #fff;
+}
+
+.create-form {
+  width: 60%; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.register-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+}
+.btn-cancel {
+  margin-right: 1rem;
+  text-decoration: none;
+  background-color: #6c757d;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}
+
+.btn-save {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.btn-save:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
